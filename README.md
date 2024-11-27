@@ -26,14 +26,7 @@ By learning these technologies, you'll gain valuable skills that are highly rele
 
 By the end of this module, you will be able to:
 
-1. **Develop a REST API using Python and FastAPI.**
-2. **Apply professional terminology and concepts related to web systems development.**
-3. **Consume and interact with REST APIs using Python.**
-4. **Write and execute unit tests and integration tests for Python applications using Pytest.**
-5. **Implement comprehensive logging strategies to monitor and debug applications.**
-6. **Utilize Git for version control and collaborative development.**
-7. **Apply professional programming techniques such as DRY (Don't Repeat Yourself) and error handling using LBYL (Look Before You Leap) and EAFP (Easier to Ask Forgiveness than Permission).**
-8. **Set up GitHub Actions for Continuous Integration (CI), automating the execution of tests to ensure software quality.**
+- CLO 10: Create, Consume and Test REST APIs using Python.
 
 ---
 
