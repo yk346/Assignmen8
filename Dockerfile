@@ -13,7 +13,7 @@ RUN apt-get update && \
        libssl-dev \
    && rm -rf /var/lib/apt/lists/*
 
-RUN python -m pip install --upgrade pip setuptools wheel
+RUN python -m pip install --upgrade pip setuptools>=70.0.0 wheel
 
 WORKDIR /app
 COPY requirements.txt .
