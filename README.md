@@ -395,7 +395,34 @@ REST (Representational State Transfer) APIs are a set of principles that define 
    - **Screenshots:**
      - Successful GitHub Actions workflow run.
      - Application running in the browser.
+# **Grading Expectations**
 
+Your submissions for the **Hands-On Assignment** will be evaluated based on the following two criteria:
+
+### **1. Submission Completeness (50 Points)**
+
+- **GitHub Repository Link:**
+  - Provided and accessible.
+  - Contains all necessary files (`FastAPI` application code, tests, `requirements.txt`, GitHub Actions workflow).
+
+- **Screenshots:**
+  - **GitHub Actions Workflow:** Screenshot shows a successful run of the GitHub Actions workflow.
+  - **Application Running in Browser:** Screenshot shows the web application operational.
+
+
+### **2. Functionality of Web Application and Tests (50 Points)**
+
+- **Web Application Operates Correctly:**
+  - The FastAPI Calculator runs without errors.
+  - All arithmetic operations function as expected.
+
+- **Tests Implemented and Passing:**
+  - Unit tests, integration tests, and end-to-end tests are implemented.
+  - All tests pass successfully in the GitHub Actions workflow.
+
+---
+
+**Total: 100 Points**
 ---
 
 ## **Reflect**
