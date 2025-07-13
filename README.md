@@ -1,6 +1,3 @@
-# 
-
-
 # 📦 Project Setup
 
 ---
