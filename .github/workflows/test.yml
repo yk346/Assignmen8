@@ -24,12 +24,22 @@ jobs:
          restore-keys: |
            ${{ runner.os }}-pip-
 
+#     - name: Install dependencies
+#       run: |
+ #        python -m venv venv
+ #        source venv/bin/activate
+  #       pip install -r requirements.txt
+   #      playwright install
+
      - name: Install dependencies
        run: |
          python -m venv venv
          source venv/bin/activate
+         pip install --upgrade pip
+         pip install --upgrade httpcore
          pip install -r requirements.txt
          playwright install
+
 
      - name: Run tests
        run: |
@@ -55,6 +65,9 @@ jobs:
          exit-code: '1'
          ignore-unfixed: true
          severity: 'CRITICAL,HIGH'
+
+
+
 
  deploy:
    needs: security
